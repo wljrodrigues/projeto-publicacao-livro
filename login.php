@@ -35,7 +35,7 @@
         <label for="username" class="form-label">Username:</label>
         <input type="text" id="username" name="username" class="form-control" >
 
-        <label for="password" class="form-label">Password:</label>
+        <label for="password" class="form-label">Senha:</label>
         <input type="password" id="password" name="password" class="form-control" >
         </div>
         <button type="button" class="btn btn-link btn-floating mx-1">
