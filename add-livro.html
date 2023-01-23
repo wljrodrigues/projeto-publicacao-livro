@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Book</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <section class="w-100 p-4 d-flex justify-content-center pb-4">
+    <form style="width: 40%" action="upload_book.php" method="post" enctype="multipart/form-data">
+      
+        <div class="form-outline mb-4">
+        <label for="title" class="form-label">Title:</label>
+        <input type="text" id="title" name="title" class="form-control">
+
+        <label for="author" class="form-label">Author:</label>
+        <input type="text" id="author" name="author" class="form-control">
+
+        <label for="description" class="form-label">Description:</label>
+        <textarea id="description" name="description" class="form-control"></textarea>
+
+        <label for="file" class="form-label">Book File:</label>
+        <input type="file" id="file" name="file" class="form-control">
+
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block mb-4" value="Upload">
+            Enviar obra
+        </button>
+
+      
+    </form>
+    </section>
+</body>
+</html>
